@@ -1,0 +1,48 @@
+1649887530156	geckodriver	INFO	Listening on 127.0.0.1:32801
+1649887530160	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileEHWz9s"
+1649887530877	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEHWz9s/search.json.mozlz4", (void 0)))
+1649887532217	Marionette	INFO	Listening on port 33379
+Read port: 33379
+1649887532289	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649887536862	Marionette	INFO	Stopped listening on port 33379
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1649888030007	geckodriver	INFO	Listening on 127.0.0.1:48481
+1649888030011	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilebwXm9B"
+1649888030699	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebwXm9B/search.json.mozlz4", (void 0)))
+1649888031919	Marionette	INFO	Listening on port 42223
+Read port: 42223
+1649888032041	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649888037358	Marionette	INFO	Stopped listening on port 42223
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1649888071975	geckodriver	INFO	Listening on 127.0.0.1:54589
+1649888071978	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile0izO0w"
+1649888072686	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0izO0w/search.json.mozlz4", (void 0)))
+1649888073873	Marionette	INFO	Listening on port 41747
+Read port: 41747
+1649888073896	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649888078689	Marionette	INFO	Stopped listening on port 41747
+1649888106764	geckodriver	INFO	Listening on 127.0.0.1:35485
+1649888106767	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilewg2AjJ"
+1649888107452	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewg2AjJ/search.json.mozlz4", (void 0)))
+1649888108681	Marionette	INFO	Listening on port 34455
+Read port: 34455
+1649888108795	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649888113649	Marionette	INFO	Stopped listening on port 34455
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
