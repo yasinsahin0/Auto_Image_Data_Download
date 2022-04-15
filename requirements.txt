@@ -1,4 +1,4 @@
 conda install requests
 conda install beautifulsoup4
-
-# pip install Google-Images-Search
+conda install pandas
+conda install -c conda-forge selenium

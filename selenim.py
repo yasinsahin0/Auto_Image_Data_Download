@@ -19,7 +19,7 @@ download_path = "data/"
 def main():
     searchtext = "çiçek" # the search query
     num_requested = 50 # number of images to download
-    number_of_scrolls =  50#int(num_requested / 400 + 1)
+    number_of_scrolls =  5#int(num_requested / 400 + 1)
     # number_of_scrolls * 400 images will be opened in the browser
 
     if not os.path.exists(download_path + searchtext.replace(" ", "_")):
@@ -39,9 +39,9 @@ def main():
         for __ in range(10):
             # multiple scrolls needed to show all 400 images
             driver.execute_script("window.scrollBy(0, 1000000)")
-            time.sleep(0.2)
+            time.sleep(1)
         # to load next 400 images
-        time.sleep(0.5)
+        time.sleep(1)
         try:
             driver.find_element_by_xpath("//input[@value='Show more results']").click()
         except Exception as e:
