@@ -1,6 +1,14 @@
 # Auto_Image_Data_Download
 Automatic image data download and data set collection
 
+## Depends
+
+```
+folder : data, html_content
+file : html_content/class_name.csv
+```
+1. $ python get_image_content.py
+2. $ python images_download.py
 ## Gecko driver install
 
 Download : https://github.com/mozilla/geckodriver/releases  

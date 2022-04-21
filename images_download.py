@@ -1,5 +1,4 @@
 import os
-
 import requests
 from bs4 import BeautifulSoup
 
@@ -25,16 +24,19 @@ class ImageDownload:
         os.mkdir("data/"+folder_name)
         with open("html_content/"+html_file_name) as fp:
             soup = BeautifulSoup(fp, 'html.parser')
-
+        if folder_name.find(" ") > 0:
+            file_name = folder_name.replace(" ", "_").lower()
+        else:
+            file_name = folder_name.lower()
         for i, j in enumerate(soup.find_all("img")):
             try:
                 data = requests.get(j.get("src"), stream=True)
                 if b"PNG" in data.content:
-                    filename = f"img{i}.png"
+                    filename = file_name + str(i) +".png"
                 elif b"JFIF" in data.content:
-                    filename = f"img{i}.jpg"
+                    filename = file_name + str(i) +".jpg"
                 else:
-                    filename = f"img{i}"
+                    filename = file_name + str(i)
                 with open("data/" + folder_name + "/" + filename, "wb") as f:
                     for chunk in data.iter_content(chunk_size=4096):
                         f.write(chunk)

@@ -1,3 +1,4 @@
 .idea/
-data
+data/*
+html_content/*.html
 geckodriver.log 

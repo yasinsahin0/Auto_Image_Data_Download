@@ -15,7 +15,7 @@ class GetContent:
         data = pd.read_csv(self.class_data_path)
         for d in data["class"]:
             html_cont = self.getBrowser(d)
-            with open(d+".html","a") as file:
+            with open("html_content/"+d+".html", "a") as file:
                 file.write(html_cont)
             time.sleep(1)
 
