@@ -10,8 +10,8 @@ file : html_content/class_name.csv
 1. $ python get_image_content.py
 2. $ python images_download.py
 ## Gecko driver install
-
-Download : https://github.com/mozilla/geckodriver/releases  
+Macos M1 , Linux Ubuntu  
+Download : https://github.com/mozilla/geckodriver/releases   
 ```
 sudo tar -C /usr/local/bin/ -xvf geckodriver-v0.27.0-linux64.tar
 ```
